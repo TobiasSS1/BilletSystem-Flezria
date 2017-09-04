@@ -30,7 +30,7 @@ namespace BilletLib.Tests
             Bil Bil = new Bil();
             String ExpectedKøretøj = "Bil";
             //Act
-            String Køretøj = Bil.Køretøj();
+            String Køretøj = Bil.KøretøjType();
             //Assert
             Assert.AreEqual(ExpectedKøretøj, Køretøj);
         }

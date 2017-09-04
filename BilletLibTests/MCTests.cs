@@ -26,7 +26,7 @@ namespace BilletLibTests
             MC MC = new MC();
             String ExpectedKøretøj = "MC";
             //Act
-            String Køretøj = MC.Køretøj();
+            String Køretøj = MC.KøretøjType();
             //Assert
             Assert.AreEqual(ExpectedKøretøj, Køretøj);
         }
