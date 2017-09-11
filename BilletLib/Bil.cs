@@ -8,6 +8,8 @@ namespace BilletLib
 {
     public class Bil : Køretøj
     {
+
+		//Fillip, hvor er den brobizz? Tag dig sammen! Du skal lave den brobizz!
         public override int Pris()
         {
             return 240;
