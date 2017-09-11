@@ -19,6 +19,8 @@ namespace BilletLibTests
             Assert.AreEqual(ExpectedPris, Pris);
         }
 
+		
+
         [TestMethod()]
         public void KøretøjTestMC()
         {
